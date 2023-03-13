@@ -6,7 +6,7 @@ pipeline{
         echo 'Building the app...'
       }
     }
-    stage("Best"){
+    stage("Test"){
       steps{
         echo 'Testing the app...'
       }
